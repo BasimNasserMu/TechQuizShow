@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub Quiz Show</title>
+    <link rel="stylesheet" href="QuizShowStyle.css">
+</head>
+<body>
+    <div id="popup" class="popup" style="display: none;">
+        <div id="popup-content">
+            <div id="question-text"></div>
+            <div id="choices-text"></div>
+            <div id="answer-text"></div>
+        </div>
+        <div id="show-choices" onclick="showChoices()">Show Choices (-100)</div>
+        <div id="show-answer" onclick="showCorrectAnswer()">Show Correct Answer</div>
+        <div id="close-popup" onclick="closePopup()">Close</div>
+    </div>
+    <div class="quiz-show-window">
+        <h2>TechHub Quiz Show</h2>
+
+        <!-- Display the scores for Team 1 and Team 2 -->
+        <div class="team-scores">
+            <div id="team1-score"><span id="team1-name">Team 1</span><br><span id="team1-points">100</span></div>
+            <div id="team2-score"><span id="team2-name">Team 2</span><br><span id="team2-points">200</span></div>
+        </div>
+
+        <!-- Quiz categories and questions -->
+        <div class="quiz-board">
+            <!-- Category 1 -->
+            <div class="category">
+                <h3>Data Science</h3>
+                <div id="c1q1" class="question" onclick="buttonClicked(this.id)">100 Points</div>
+                <div id="c1q2" class="question" onclick="buttonClicked(this.id)">200 Points</div>
+                <div id="c1q3" class="question" onclick="buttonClicked(this.id)">300 Points</div>
+                <div id="c1q4" class="question" onclick="buttonClicked(this.id)">400 Points</div>
+                <div id="c1q5" class="question" onclick="buttonClicked(this.id)">500 Points</div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="category">
+                <h3>Artificial Intelligence</h3>
+                <div id="c2q1" class="question" onclick="buttonClicked(this.id)">100 Points</div>
+                <div id="c2q2" class="question" onclick="buttonClicked(this.id)">200 Points</div>
+                <div id="c2q3" class="question" onclick="buttonClicked(this.id)">300 Points</div>
+                <div id="c2q4" class="question" onclick="buttonClicked(this.id)">400 Points</div>
+                <div id="c2q5" class="question" onclick="buttonClicked(this.id)">500 Points</div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="category">
+                <h3>Networks</h3>
+                <div id="c3q1" class="question" onclick="buttonClicked(this.id)">100 Points</div>
+                <div id="c3q2" class="question" onclick="buttonClicked(this.id)">200 Points</div>
+                <div id="c3q3" class="question" onclick="buttonClicked(this.id)">300 Points</div>
+                <div id="c3q4" class="question" onclick="buttonClicked(this.id)">400 Points</div>
+                <div id="c3q5" class="question" onclick="buttonClicked(this.id)">500 Points</div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="category">
+                <h3>Programming</h3>
+                <div id="c4q1" class="question" onclick="buttonClicked(this.id)">100 Points</div>
+                <div id="c4q2" class="question" onclick="buttonClicked(this.id)">200 Points</div>
+                <div id="c4q3" class="question" onclick="buttonClicked(this.id)">300 Points</div>
+                <div id="c4q4" class="question" onclick="buttonClicked(this.id)">400 Points</div>
+                <div id="c4q5" class="question" onclick="buttonClicked(this.id)">500 Points</div>
+            </div>
+            <!-- Category 5 -->
+            <div class="category">
+                <h3>Programming</h3>
+                <div id="c5q1" class="question" onclick="buttonClicked(this.id)">200 Points</div>
+                <div id="c5q2" class="question" onclick="buttonClicked(this.id)">100 Points</div>
+                <div id="c5q3" class="question" onclick="buttonClicked(this.id)">300 Points</div>
+                <div id="c5q4" class="question" onclick="buttonClicked(this.id)">400 Points</div>
+                <div id="c5q5" class="question" onclick="buttonClicked(this.id)">500 Points</div>
+            </div>
+        </div>
+        <div class="reset" onclick="resetQuest()" style="text-align: center;">Reset</div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="QuizShowScript.js"></script>
+</body>
+</html>

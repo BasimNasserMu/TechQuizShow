@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d065f745;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+/* Style for Control Window */
+.control-window {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 300px;
+}
+
+.team-scores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+#team1name {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+#team2name {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+#points-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.control-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#setname
+{
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

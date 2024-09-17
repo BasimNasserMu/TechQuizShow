@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="ControlStyle.css">
+</head>
+<body>
+    <div class="control-window">
+        <h2>Control Panel</h2>
+
+        <!-- Display the scores for Team 1 and Team 2 -->
+        <div class="team-scores">
+            <div id="team1-score"><span id="team1-name">Team 1</span>: <span id="team1-points">100</span></div>
+            <div id="team2-score"><span id="team2-name">Team 2</span>: <span id="team2-points">200</span></div>
+        </div>
+        <input type="text" id="team1name" placeholder="Team 1 name">
+        <input type="text" id="team2name" placeholder="Team 2 name">
+        <div id="setname"><button onclick="setNames()">Set Names</button></div>
+        
+        <!-- Input field to enter the number of points -->
+        <input type="number" id="points-input" placeholder="Enter points">
+
+        <!-- Buttons to add or subtract points from each team -->
+        <div class="control-buttons">
+            
+            <div>
+                <button onclick="addPoints(1)"> + Team 1</button>
+                <button onclick="addPoints(2)"> + Team 2</button>
+            </div>
+            <div>
+                <button onclick="subtractPoints(1)"> - Team 1</button>
+                <button onclick="subtractPoints(2)"> - Team 2</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="ControlScript.js"></script>
+</body>
+</html>

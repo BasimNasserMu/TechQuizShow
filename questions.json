@@ -1,0 +1,277 @@
+[
+    {
+        "id": "c1q1",
+        "question": "What is the capital of France?",
+        "answers": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Rome"
+        ],
+        "correctAnswer": "Paris"
+    },
+    {
+        "id": "c1q2",
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correctAnswer": "Mars"
+    },
+    {
+        "id": "c1q3",
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "answers": [
+            "J.K. Rowling",
+            "Harper Lee",
+            "F. Scott Fitzgerald",
+            "George Orwell"
+        ],
+        "correctAnswer": "Harper Lee"
+    },
+    {
+        "id": "c1q4",
+        "question": "What is the largest ocean on Earth?",
+        "answers": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+        ],
+        "correctAnswer": "Pacific Ocean"
+    },
+    {
+        "id": "c1q5",
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": [
+            "Oxygen",
+            "Osmium",
+            "Oganesson",
+            "Olivine"
+        ],
+        "correctAnswer": "Oxygen"
+    },
+    {
+        "id": "c2q1",
+        "question": "In which year did the Titanic sink?",
+        "answers": [
+            "1905",
+            "1912",
+            "1920",
+            "1918"
+        ],
+        "correctAnswer": "1912"
+    },
+    {
+        "id": "c2q2",
+        "question": "What is the largest mammal in the world?",
+        "answers": [
+            "Elephant",
+            "Blue Whale",
+            "Giraffe",
+            "Hippopotamus"
+        ],
+        "correctAnswer": "Blue Whale"
+    },
+    {
+        "id": "c2q3",
+        "question": "Which gas do plants primarily take in during photosynthesis?",
+        "answers": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide",
+            "Helium"
+        ],
+        "correctAnswer": "Carbon Dioxide"
+    },
+    {
+        "id": "c2q4",
+        "question": "What is the smallest planet in our solar system?",
+        "answers": [
+            "Mercury",
+            "Venus",
+            "Mars",
+            "Pluto"
+        ],
+        "correctAnswer": "Mercury"
+    },
+    {
+        "id": "c2q5",
+        "question": "Which country hosted the 2016 Summer Olympics?",
+        "answers": [
+            "Japan",
+            "Brazil",
+            "United States",
+            "China"
+        ],
+        "correctAnswer": "Brazil"
+    },
+    {
+        "id": "c3q1",
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Raphael",
+            "Vincent van Gogh"
+        ],
+        "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+        "id": "c3q2",
+        "question": "What is the main ingredient in guacamole?",
+        "answers": [
+            "Tomato",
+            "Onion",
+            "Avocado",
+            "Pepper"
+        ],
+        "correctAnswer": "Avocado"
+    },
+    {
+        "id": "c3q3",
+        "question": "What is the hardest natural substance on Earth?",
+        "answers": [
+            "Gold",
+            "Iron",
+            "Diamond",
+            "Granite"
+        ],
+        "correctAnswer": "Diamond"
+    },
+    {
+        "id": "c3q4",
+        "question": "What is the longest river in the world?",
+        "answers": [
+            "Amazon River",
+            "Yangtze River",
+            "Nile River",
+            "Mississippi River"
+        ],
+        "correctAnswer": "Nile River"
+    },
+    {
+        "id": "c3q5",
+        "question": "Who developed the theory of relativity?",
+        "answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Albert Einstein",
+            "Stephen Hawking"
+        ],
+        "correctAnswer": "Albert Einstein"
+    },
+    {
+        "id": "c4q1",
+        "question": "What is the chemical symbol for gold?",
+        "answers": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+        ],
+        "correctAnswer": "Au"
+    },
+    {
+        "id": "c4q2",
+        "question": "What is the largest continent by land area?",
+        "answers": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "Antarctica"
+        ],
+        "correctAnswer": "Asia"
+    },
+    {
+        "id": "c4q3",
+        "question": "Which country is famous for inventing pizza?",
+        "answers": [
+            "Greece",
+            "Spain",
+            "Italy",
+            "France"
+        ],
+        "correctAnswer": "Italy"
+    },
+    {
+        "id": "c4q4",
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "answers": [
+            "Marie Curie",
+            "Rosalind Franklin",
+            "Ada Lovelace",
+            "Dorothy Hodgkin"
+        ],
+        "correctAnswer": "Marie Curie"
+    },
+    {
+        "id": "c4q5",
+        "question": "What is the longest bone in the human body?",
+        "answers": [
+            "Femur",
+            "Tibia",
+            "Humerus",
+            "Fibula"
+        ],
+        "correctAnswer": "Femur"
+    },
+    {
+        "id": "c5q1",
+        "question": "Who invented the telephone?",
+        "answers": [
+            "Thomas Edison",
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Guglielmo Marconi"
+        ],
+        "correctAnswer": "Alexander Graham Bell"
+    },
+    {
+        "id": "c5q2",
+        "question": "Which planet is the hottest in the solar system?",
+        "answers": [
+            "Mercury",
+            "Venus",
+            "Earth",
+            "Mars"
+        ],
+        "correctAnswer": "Venus"
+    },
+    {
+        "id": "c5q3",
+        "question": "What is the square root of 64?",
+        "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+        ],
+        "correctAnswer": "8"
+    },
+    {
+        "id": "c5q4",
+        "question": "What is the national animal of Australia?",
+        "answers": [
+            "Kangaroo",
+            "Koala",
+            "Emu",
+            "Platypus"
+        ],
+        "correctAnswer": "Kangaroo"
+    },
+    {
+        "id": "c5q5",
+        "question": "What is the smallest unit of matter?",
+        "answers": [
+            "Molecule",
+            "Atom",
+            "Electron",
+            "Neutron"
+        ],
+        "correctAnswer": "Atom"
+    }
+]

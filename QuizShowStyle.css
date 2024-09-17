@@ -1,0 +1,209 @@
+/* General styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2d05cdaf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the main container of the quiz show window */
+.quiz-show-window {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Styling for the header */
+.quiz-show-window h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Team scores styling */
+.team-scores {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.team-scores div {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the quiz board grid */
+.quiz-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+/* Category column styling */
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Category header styling */
+.category h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* Question box styling */
+.question {
+    width: 88%;
+    padding: 10px;
+    background-color: #360eff;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.question.disabled {
+    padding: 10px;
+    background-color: #012245;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    pointer-events: none;
+}
+.question:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.reset {
+    padding: 10px;
+    background-color: #da1010;
+    color: white;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    margin: 0 auto; /* Add this line to center the element */
+    width: 80px;
+}
+.reset:hover {
+    background-color: #920303;
+    transform: scale(1.05);
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .quiz-board {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-scores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-scores div {
+        margin-bottom: 10px;
+    }
+}
+}
+.window {
+    align-items: center;
+}
+/* Popup container */
+#popup {
+    position: fixed; /* Make it fixed on the screen */
+    top: 50%; /* Center the popup vertically */
+    left: 50%; /* Center the popup horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true centering */
+    width: 80%px; /* Set a width */
+    padding: 20px; /* Padding inside the popup */
+    background-color: white; /* Popup background */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for effect */
+    display: none; /* Initially hidden */
+    z-index: 9999; /* Ensure it appears above other content */
+
+}
+
+/* Popup content */
+#popup-content {
+    margin-bottom: 20px; /* Spacing between content and buttons */
+}
+
+#question-text {
+    margin-bottom: 15px; /* Space between text sections */
+    font-size: 60px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+#choices-text {
+    margin-bottom: 15px; /* Space between text sections */
+    font-size: 30px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+
+#answer-text {
+    margin-bottom: 15px; /* Space between text sections */
+    font-size: 30px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+/* Button styling */
+#show-choices, #show-answer, #close-popup {
+    display: inline-block;
+    margin-right: 10px; /* Space between buttons */
+    padding: 10px 15px; /* Button padding */
+    background-color: #007BFF; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Button font size */
+    text-align: center; /* Center text in buttons */
+}
+
+/* Hover effects for buttons */
+#show-choices:hover, #show-answer:hover, #close-popup:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Optional: Animation for popup appearance */
+#popup.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

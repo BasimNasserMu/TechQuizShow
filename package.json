@@ -1,0 +1,14 @@
+{
+  "name": "techquiz",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"live-server --port=5500\" \"node server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
